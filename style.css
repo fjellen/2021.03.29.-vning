@@ -1,0 +1,65 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex; 
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.page-content{
+    display: flex; 
+    width: 90%;
+    flex-direction: column;
+}
+
+.profile-wrap{
+    height:312px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.profile-wrap img{
+    height: 100%;
+    width: 40%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile-wrap article{
+    width: 60%;
+    padding: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+}
+
+table{
+    border-style: solid;
+    border-width: 1px;
+    border-color:lightgrey;
+}
+
+th{
+    border-bottom: none;
+    text-align: start;
+}
+
+th, td{
+    padding: 10px;    
+}
+
+i {
+    padding: 5px;
+    border-radius: 15px;
+    background-color:green;
+    color: white;
+}
+
+/*for phone*/
+
+@media only screen and (max-width: 768px){
+table {font-size: 10px;}
+.icon{display:none;}
+}
